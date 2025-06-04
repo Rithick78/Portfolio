@@ -1,5 +1,5 @@
 import React from 'react'
-import "./hero.css"
+import "./Hero.css"
 import bye from "../../assets/wave.png"
 import rithick from "../../assets/rithick.PNG"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -10,8 +10,8 @@ import leetcode from "../../assets/leetcode.png"
 
 
 
-const hero = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+const Hero = () => {
+   
   const [typeEffect] = useTypewriter({
     words: ['Web Designer', 'Frontend Web Developer.'],
     loop: 1,
@@ -77,4 +77,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
