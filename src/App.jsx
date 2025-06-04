@@ -1,11 +1,10 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Hero from './components/hero/hero'
+import Hero from './components/Hero/Hero'
 import Skills from "./components/skills/skills"
 import Projects from "./components/myProjects/project"
 import Contact from "./components/contact/contact"
 import Footer from "./components/footer/footer"
-import Loader from './components/loader/loader'
 
 const App = () => {
 
@@ -17,7 +16,6 @@ const App = () => {
        <Projects/>
        <Contact/>
        <Footer/>
-       <Loader/>
     </div>
   )
 }
