@@ -1,0 +1,233 @@
+.title-p {
+    font-size: 40px;
+    font-weight: 500;
+    background-clip: text;
+    color: transparent;
+    font-family: "Paprika", system-ui;
+    transition: 0.3s;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+}
+.title-p:hover {
+    border-bottom: 3px solid rgb(102, 69, 102);
+    transform: scale(1.1);
+}
+.card{
+    background-color: rgb(252, 214, 252);
+    height:38rem;
+    border-radius: 30px;
+    box-shadow: 0 0 3px white;
+    transition: 0.5s;
+}
+.card:hover{
+   box-shadow: 0 0  30px white;
+}
+.card h1,h2,p {
+    margin: 20px 15px;
+    text-align: center;
+}
+.card h2{
+    word-spacing: 15px;
+    opacity: 0.8;
+    color: rgb(120, 18, 120);
+}
+.card h1{
+    color: #6615ae;
+    
+}
+.card p{
+    color: #783d84;
+} 
+.project{
+    position: relative;
+    top: -20rem;
+}
+.my-projects{
+    gap: 70px;
+}
+.card-img img{
+    border-radius: 10px 10px 50px 50px;
+    object-fit: contain;
+}
+.desc{
+    margin: 10px;
+}
+.img-link{
+    width: 35px;
+    height: 35px;
+}
+.img-link:hover,.img-git:hover{
+    transform: scale(1.15);
+}
+.img-git{
+    width: 25px;
+    height: 25px;
+}
+.date p{
+    font-weight:700 ;
+     color: rgb(123, 14, 123);
+}
+
+@media (max-width:1600px){
+.title-p {
+    font-size: 35px;
+    font-weight: 600;
+}
+.project-sum h1{
+  font-size: 16px;
+}
+.card {
+    height: 34rem;
+}
+.card h2{
+    word-spacing: 11px;
+}
+.project{
+    position: relative;
+    top: -20rem;
+}
+.my-projects{
+    gap: 70px;
+}
+.card p{
+    font-size: 14px;
+}
+.img-link{
+    width: 30px;
+    height: 30px;
+}
+
+.img-git{
+    width: 22px;
+    height: 22px;
+}
+
+}
+
+@media (max-width:1000px){
+.title-p {
+    font-size: 28px;
+    font-weight: 600;
+}
+.project-sum h1{
+  font-size: 13px;
+}
+.card {
+    height: 28rem;
+}
+.card h2{
+    word-spacing: 8px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.project{
+    position: relative;
+    top: -20rem;
+}
+.card p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.img-link{
+    width: 28px;
+    height: 28px;
+}
+.img-git{
+    width: 20px;
+    height: 20px;
+}
+.date p{
+    font-weight:700 ;
+    font-size: 11px;
+}
+
+}
+
+@media (max-width:770px){
+.title-p {
+    font-size: 27px;
+    font-weight: 600;
+}
+.project-sum h1{
+  font-size: 13px;
+  width: 36rem;
+}
+.card {
+    height: 26rem;
+}
+.card h1{
+    font-size: 17px;
+}
+.card h2{
+    word-spacing: 8px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.project{
+    position: relative;
+    top: -20rem;
+}
+.card p{
+    font-size: 9px;
+    font-weight: 600;
+}
+.img-link{
+    width: 25px;
+    height: 25px;
+}
+.img-git{
+    width: 18px;
+    height: 18px;
+}
+.date p{
+    font-weight:700 ;
+    font-size: 11px;
+}
+
+}
+
+@media (max-width:340px){
+.title-p {
+    font-size: 25px;
+    font-weight: 600;
+}
+.project-sum h1{
+  font-size: 12px;
+  width: 18.9rem;
+  position: relative;
+  top: 10px;
+}
+.card {
+    height: 27rem;
+    position: relative;
+    top: 40px;
+}
+.card h1{
+    font-size: 14px;
+}
+.card h2{
+    word-spacing: 8px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.project{
+    position: relative;
+    top: -32rem;
+}
+.card p{
+    font-size: 9px;
+    font-weight: 600;
+}
+.img-link{
+    width: 22px;
+    height: 22px;
+}
+.img-git{
+    width: 17px;
+    height: 17px;
+}
+.date p{
+    font-weight:700 ;
+    font-size: 11px;
+}
+
+}

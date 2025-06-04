@@ -1,0 +1,91 @@
+.footer-sec{
+    border-bottom: 3px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-right img{
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+.footer-right img:hover{
+    transform: scale(1.2);
+}
+.footer{
+  position: relative;
+  top: -150px;
+  color: #080808;
+}
+.footer-left h1 {
+    font-family: "Sarina", cursive;
+    background: linear-gradient(to right, #d354e9 0%, #9733EE 51%, #DA22FF 100%);
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.footer-left span {
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.foot-right p{
+    transition: 0.3s;
+}
+.foot-right p:hover{
+     transform: scale(1.1);
+     opacity: 0.8;
+}
+.foot-left {
+   position: relative;
+   left:5.8rem;
+}
+.foot-right {
+   position: relative;
+   right:5.8rem;
+}
+.footer-right{
+    position: relative;
+    right: 8rem;
+}
+@media (max-width:1600px){ 
+    
+.footer-right img{
+    width: 70px;
+    height: 30px;
+    transition: 0.3s;
+}
+.footer{
+  position: relative;
+  top: -150px;
+}
+.footer-left h1 {
+    font-size: 20px;
+}
+.footer-left span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-left{
+    position: relative;
+    left: 120px;
+}
+.footer-right{
+    position: relative;
+     right: 190px;
+}
+.foot-left{
+    position: relative;
+    left: 200px;
+}
+.foot-right{
+    position: relative;
+     right: 170px;
+}
+}
+
+@media (max-width:1000px){ 
+    .footer{
+        display: none;
+    }
+}
