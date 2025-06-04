@@ -10,7 +10,7 @@ import leetcode from "../../assets/leetcode.png"
 
 
 
-const Hero = () => {
+const HeroComponent = () => {
    
   const [typeEffect] = useTypewriter({
     words: ['Web Designer', 'Frontend Web Developer.'],
@@ -77,4 +77,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroComponent
