@@ -155,11 +155,50 @@
 
 }
 
-@media (max-width:340px){
+@media (max-width:450px){
 .navbar h1{
   font-size:15px;
   position: relative;
-  left:-5px;
+  left:15px;
+}
+.nav-list {
+  gap: 10px;
+  font-size: 15px;
+}
+.btn-connect {
+  position: relative;
+  right: -80px;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+.menu-close {
+  width: 40px;
+}
+.menu-open  {
+   width: 38px;
+   left: -5px;
+}
+}
+
+@media (max-width:420px){
+  .btn-connect {
+  position: relative;
+  right: -55px;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+.menu-open  {
+   width: 38px;
+   left: 5px;
+}
+}
+
+
+@media (max-width:350px){
+.navbar h1{
+  font-size:15px;
+  position: relative;
+  left:10px;
 }
 .nav-list {
   gap: 10px;
@@ -176,6 +215,6 @@
 }
 .menu-open  {
    width: 38px;
-   left: 10px;
+   left: 5px;
 }
 }

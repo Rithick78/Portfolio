@@ -266,6 +266,54 @@
 }
 }
 
+@media(max-width:450px){
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.skills{
+    position: relative;
+    top: -10px;
+}
+.skills-full{
+    flex-direction: column;
+}
+.skills-right{
+    position: relative;
+    left: -1rem;
+    top: -13rem;
+}
+.skills-right div {
+    position: relative;
+    left: 0;
+
+}
+.skills-right img{
+    width: 60px;
+}
+
+.skills-right h1{
+    font-size: 18px;
+}
+.skills-left{
+    position: relative;
+    top: -20px;
+    left: 4.2rem;
+}
+
+.skills-left-img img {
+    width: 20rem;
+    height: 17rem;
+}
+.about-skills{
+    font-size: 16px;
+}
+.about-skills span {
+    font-weight: 600;
+    font-size: 19px;
+}
+}
+
 @media(max-width:340px){
 .title {
     font-size: 30px;

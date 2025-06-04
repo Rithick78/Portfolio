@@ -61,7 +61,7 @@ const project = () => {
         },
       },
       {
-        breakpoint: 350, // for screen widths <= 768px
+        breakpoint: 450, // for screen widths <= 768px
         settings: {
           slidesToShow: 1,
         },

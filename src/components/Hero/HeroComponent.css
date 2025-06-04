@@ -329,6 +329,89 @@
 }
 }
 
+@media(max-width:450px) {
+.hero-left {
+    right: 0px;
+    top: 40px;
+    right: 0;
+
+}
+.hero{
+    position: relative;
+    top: 100px;
+}
+.hero-left img {
+    width: 20rem;
+    border-radius: 0 0 55% 35%;
+
+}
+.hero-right {
+    top: 100px;
+    left: -30px;
+    gap: 30px;
+    font-size: 12px;
+}
+.hero-name h1 {
+    gap: 1px;
+    font-size: 18px;
+    position: relative;
+    left: 28px;
+}
+.hero-name h1 img {
+    width: 22px;
+    height: 22px;
+    bottom: 0px;
+}
+.hero-name h2 {
+    font-size: 17px;
+    left: 28px;
+}
+.social-media img {
+    width: 20px;
+    top: -7px;
+    left: 40px;
+
+}
+.hero-btn button {
+    padding: 8px 10px;
+    margin-top:-40px;
+}
+.hero-about p{
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: -35px;
+}
+.btn-1 {
+    position: relative;
+    left:10px;
+     top: -10px;
+}
+.btn-2 {
+    position: relative;
+    left:50px;
+    top: -10px;
+}
+.title-h {
+    font-size: 28px;
+    font-weight: 700;
+    background-clip: text;
+    color: transparent;
+    font-family: "Paprika", system-ui;
+    transition: 0.3s;
+    position: relative;
+    top:-41.3rem;
+    z-index: 2;
+    display: block;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+}
+
+.title-h:hover {
+    border-bottom: 3px solid purple;
+    transform: scale(1.1);
+}
+}
+
 @media(max-width:340px) {
 .hero-left {
     right: 0px;

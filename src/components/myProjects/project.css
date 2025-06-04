@@ -185,6 +185,53 @@
 
 }
 
+@media (max-width:450px){
+.title-p {
+    font-size: 28px;
+    font-weight: 600;
+}
+.project-sum h1{
+  font-size: 17px;
+  width: 18.9rem;
+  position: relative;
+  top: 10px;
+}
+.card {
+    height: 29rem;
+    position: relative;
+    top: 40px;
+}
+.card h1{
+    font-size: 14px;
+}
+.card h2{
+    word-spacing: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.project{
+    position: relative;
+    top: -32rem;
+}
+.card p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.img-link{
+    width: 28px;
+    height: 28px;
+}
+.img-git{
+    width: 20px;
+    height: 20px;
+}
+.date p{
+    font-weight:700 ;
+    font-size: 13px;
+}
+
+}
+
 @media (max-width:340px){
 .title-p {
     font-size: 25px;
