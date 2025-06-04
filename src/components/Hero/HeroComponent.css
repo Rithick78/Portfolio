@@ -401,7 +401,6 @@
     transition: 0.3s;
     position: relative;
     top:-41.3rem;
-    z-index: 2;
     display: block;
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
 }
@@ -484,7 +483,6 @@
     transition: 0.3s;
     position: relative;
     top:-44rem;
-    z-index: 2;
     display: block;
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
 }
