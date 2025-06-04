@@ -14,8 +14,8 @@ const Projects = [
         desc: "I explored modern web design concepts and enhanced my skills in creating engaging UI components.I also learned how to incorporate smooth animations and interactive effects to improve user experience.The portfolio is fully responsive and adats seamlessly to all screen sizes.  ",
         img: '/images/portfolio.png',
         date:"JUNE 2025",
-        links:'https://app.netlify.com/projects/todolistwebsiterj/overview',
-        linkss:''
+        links:'https://portfoliorj8.netlify.app/',
+        linkss:'https://github.com/Rithick78/Portfolio'
     },
     {
         no: "2",
@@ -25,7 +25,7 @@ const Projects = [
         img: "/images/todo.png",
         date:"MAY 2025",
         links:'https://todolistrj.netlify.app/',
-        linkss:'https://github.com/Rithick78/To-Do-list-/tree/master',
+        linkss:'https://github.com/Rithick78/Todo-list',
     },
     {
         no: "3",
@@ -34,8 +34,8 @@ const Projects = [
         desc: "I learned how to fetch real-time data from the internet using the asynchronous fetch method in JavaScript. I also focused on making the application fully responsive, ensuring that it works seamlessly across all screen sizes and devices.",
         img: "/images/weather.png",
         date:"APRIL 2025",
-        links:'https://weatherprojectrj.netlify.app/',
-        linkss:'https://github.com/Rithick78/Weather-project/tree/master',
+        links:'https://weatherrj.netlify.app/',
+        linkss:'https://github.com/Rithick78/Weather-finder',
     },
     
 ]
