@@ -6,7 +6,6 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import Cv from "../../assets/CV.png"
 import linkedin from "../../assets/linkedin2.png"
 import github from "../../assets/github.png"
-import leetcode from "../../assets/leetcode.png"
 
 
 
@@ -59,7 +58,6 @@ const HeroComponent = () => {
             data-aos-easing="ease-in-out"
         className="social-media">  
              <a href="https://github.com/Rithick78"><img  src={github}  /></a>  
-             <a href="https://leetcode.com/u/Rithick-jackson/"><img src={leetcode} /></a>
              <a href="https://www.linkedin.com/in/rithick-jackson-51215933b/"><img src={linkedin} /></a>
         </div>
        </div>

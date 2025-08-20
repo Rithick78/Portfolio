@@ -1,11 +1,11 @@
-import React from 'react'
+
 import "./skills.css"
 import rithick2 from "../../assets/rithick3.png"
 import Html from "../../assets/html.png"
 import Css from "../../assets/css.png"
 import JS from "../../assets/javascript.png"
 import react1 from "../../assets/react.png"
-import Redux from "../../assets/redux.png"
+import Next from "../../assets/nextjs.png"
 import Tailwind from "../../assets/tailwind.png"
 import Git from "../../assets/git.png"
 
@@ -37,7 +37,7 @@ const skills = () => {
                     along with all the required certifications.
                     I am adept at adapting <br />to new technologies and staying
                     up to date with lastest developments.I have hands on experience with
-                    <br /><span className='font-bold text-xl'>HTML, CSS, JavaScript, React, Redux, Tailwind</span> and <span className='font-bold  text-xl'>Git </span> . I am capable of quickly mastering
+                    <br /><span className='font-bold text-xl'>HTML, CSS, JavaScript, React, Next JS, Tailwind</span> and <span className='font-bold  text-xl'>Git </span> . I am capable of quickly mastering
                     <br />new tools and  framework as needed.</h2>
                 </div>
                 <div className="skills-right ">
@@ -70,8 +70,8 @@ const skills = () => {
                         data-aos-easing="ease-in-out"
                     className='library flex gap-10 w-20 '>
                         <img src={react1} />
-                        <img src={Redux} />
-                        <img src={Tailwind} />
+                        <img src={Next} />
+                        <img className='' src={Tailwind} />
                     </div>
                     <h1
                         data-aos="zoom-in-left" 

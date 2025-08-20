@@ -7,34 +7,54 @@ import Link from "../../assets/f-link.png"
 import github from "../../assets/github.png"
 
 const Projects = [
-    {
+     {
         no: "1",
-        name: "Portfolio",
-        tool:"HTML  CSS  JavaScrit  React  Tailwind ",
-        desc: "I explored modern web design concepts and enhanced my skills in creating engaging UI components.I also learned how to incorporate smooth animations and interactive effects to improve user experience.The portfolio is fully responsive and adats seamlessly to all screen sizes.  ",
-        img: '/images/portfolio.png',
+        name: "AI Mock interview",
+        tool:"  JavaScrit  Next js  React  Tailwind  Drizzle-ORM  Clerk  Gemini-AI",
+        desc: "The AI Mock Interview System simulates real interviews with AI-generated questions, offering text or voice interaction, instant ratings, feedback with correct answers, webcam integration for realism, personalized learning for job readiness, and progress tracking to monitor improvement over time. ",
+        img: '/images/mock.png',
         date:"JUNE 2025",
-        links:'https://portfoliorj8.netlify.app/',
+        links:'https://ai-mock-interview-rj.netlify.app/',
         linkss:'https://github.com/Rithick78/Portfolio'
     },
     {
         no: "2",
-        name: "To-Do List Website",
-        tool:"HTML  CSS  JavaScrit  React  Tailwind ",
-        desc: "I learned how to implement full CRUD (Create, Read, Update, Delete) functionality, allowing users to efficiently manage their tasks. I also gained hands-on experience with state management in React and the utility-first approach of Tailwind CSS.The application is fully responsive and works smoothly across all screen sizes and devices.",
-        img: "/images/todo.png",
-        date:"MAY 2025",
-        links:'https://todolistrj.netlify.app/',
-        linkss:'https://github.com/Rithick78/Todo-list',
+        name: "AI Resume Builder",
+        tool:"  JavaScrit  React  Tailwind  Strapi  Clerk  Gemini-AI",
+        desc: "This 🧠 AI-powered resume builder allows users to effortlessly generate tailored resumes for any job role, with support for multiple theme colors. Users can preview, customize, download, and even share their resumes instantly—all in one seamless experience.",
+        img: '/images/resume.png',
+        date:"JUNE 2025",
+        links:'https://ai-resume-builder-rj.netlify.app/',
+        linkss:'https://github.com/Rithick78/Portfolio'
     },
     {
         no: "3",
+        name: "Portfolio",
+        tool:"  JavaScrit  React  Tailwind ",
+        desc: "I explored modern web design concepts and enhanced my skills in creating engaging UI components.I also learned how to incorporate smooth animations and interactive effects to improve user experience.The portfolio is fully responsive and adats seamlessly to all screen sizes.  ",
+        img: '/images/portfolio.png',
+        date:"JUNE 2025",
+        links:'https://portfolio-r-j.netlify.app/',
+        linkss:'https://github.com/Rithick78/Portfolio'
+    },
+    {
+        no: "4",
+        name: "To-Do List Website",
+        tool:"  JavaScrit  React  Tailwind ",
+        desc: "I learned how to implement full CRUD (Create, Read, Update, Delete) functionality, allowing users to efficiently manage their tasks. I also gained hands-on experience with state management in React and the utility-first approach of Tailwind CSS.The application is fully responsive and works smoothly across all screen sizes and devices.",
+        img: "/images/todo.png",
+        date:"MAY 2025",
+        links:'https://todo-list-rj.netlify.app/',
+        linkss:'https://github.com/Rithick78/Todo-list',
+    },
+    {
+        no: "5",
         name: "Weather Website",
-        tool:"HTML  CSS  JavaScrit  React ",
+        tool:" JavaScrit  React ",
         desc: "I learned how to fetch real-time data from the internet using the asynchronous fetch method in JavaScript. I also focused on making the application fully responsive, ensuring that it works seamlessly across all screen sizes and devices.",
         img: "/images/weather.png",
         date:"APRIL 2025",
-        links:'https://weatherrj.netlify.app/',
+        links:'https://weather-project-rj.netlify.app/',
         linkss:'https://github.com/Rithick78/Weather-finder',
     },
     
