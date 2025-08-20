@@ -10,7 +10,7 @@ const Projects = [
      {
         no: "1",
         name: "AI Mock interview",
-        tool:"  JavaScrit  Next js  React  Tailwind  Drizzle-ORM  Clerk  Gemini-AI",
+        tool:"  JavaScrit  Next.JS  React  Tailwind  Drizzle-ORM  Clerk  Gemini-AI",
         desc: "The AI Mock Interview System simulates real interviews with AI-generated questions, offering text or voice interaction, instant ratings, feedback with correct answers, webcam integration for realism, personalized learning for job readiness, and progress tracking to monitor improvement over time. ",
         img: '/images/mock.png',
         date:"JUNE 2025",
