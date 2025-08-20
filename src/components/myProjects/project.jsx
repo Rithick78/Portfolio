@@ -15,7 +15,7 @@ const Projects = [
         img: '/images/mock.png',
         date:"JUNE 2025",
         links:'https://ai-mock-interview-rj.netlify.app/',
-        linkss:'https://github.com/Rithick78/Portfolio'
+        linkss:'https://github.com/Rithick78/AI-Mock-Interview'
     },
     {
         no: "2",
@@ -25,7 +25,7 @@ const Projects = [
         img: '/images/resume.png',
         date:"JUNE 2025",
         links:'https://ai-resume-builder-rj.netlify.app/',
-        linkss:'https://github.com/Rithick78/Portfolio'
+        linkss:'https://github.com/Rithick78/ai-resume-builder'
     },
     {
         no: "3",
